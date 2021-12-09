@@ -1,0 +1,12 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 172.168.11.207:8848
+  application:
+    name: passjava-thirdparty
+server:
+  port: 14000
+
+
+

@@ -24,3 +24,11 @@ server:
   servlet:
     context-path: /
 
+logging:
+  level:
+    org:
+      springframework:
+        cloud:
+          openfeign: debug
+          sleuth: debug
+
